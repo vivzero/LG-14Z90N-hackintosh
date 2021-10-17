@@ -48,6 +48,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-RP09.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RP09.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-SBUS-MCHC.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -807,7 +815,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v slide=0 nvme=-1</string>
+				<string>-v slide=0</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>

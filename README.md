@@ -17,10 +17,10 @@
 | Audio | ? |
 | BIOS | 20200812 |
 
-* No need to change BIOS settings.
+* No need to change BIOS settings. (without Secure Boot)
 
 </details>
 
 ## To-do
-* Replace or Disable stock SSD
+* Add another SSD
 * Fix I2C touchpad
