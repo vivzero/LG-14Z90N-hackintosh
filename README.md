@@ -23,7 +23,6 @@
 
 ## To-do
 * Fix sleep
-* Fix USB
 
 ## Touchpad
 * VoodooI2C works as force polling mode. If you want to use Interrupt mode, set `Force unlock on all GPIO pads` to "Enabled", and remove `force-polling` in DeviceProperties.
