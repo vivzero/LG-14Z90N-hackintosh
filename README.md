@@ -18,11 +18,16 @@
 </details>
 
 ## Issues
+* Touchpad doesn't work after using Windows.
 * HDMI output doesn't work.
 * Thunderbolt: "No drivers are loaded."
+* Brightness is lower than Windows.
 
 ## To-do
 * Remap USB (left type-C and SD card reader)
+* Fix function keys
+* Check HiDPI
+* Check hibernation
 
 ## Touchpad
 * VoodooI2C works as force polling mode. If you want to use Interrupt mode, set `Force unlock on all GPIO pads` to "Enabled", and remove `force-polling` in DeviceProperties.
