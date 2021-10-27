@@ -141,6 +141,15 @@
 					<key>SS02</key>
 					<dict>
 						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						DwAAAA==
+						</data>
+					</dict>
+					<key>SS03</key>
+					<dict>
+						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>

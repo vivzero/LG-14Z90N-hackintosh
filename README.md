@@ -1,4 +1,5 @@
 # LG Gram 14 (14Z90N) hackintosh
+![11](https://img.shields.io/badge/macOS-11-Green)
 
 <details>
 <summary><strong>Specs</strong></summary>
@@ -24,7 +25,6 @@
 * Brightness is lower than Windows.
 
 ## To-do
-* Remap USB (left type-C and SD card reader)
 * Fix function keys
 * Check HiDPI
 * Check hibernation
