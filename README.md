@@ -29,9 +29,6 @@
 * Check HiDPI
 * Check hibernation
 
-## Touchpad
-* VoodooI2C works as force polling mode. If you want to use Interrupt mode, set `Force unlock on all GPIO pads` to "Enabled", and remove `force-polling` in DeviceProperties.
-
 ## Weird mouse cursor
 1. When LG logo is appeared, press F2 to enter Setup
 2. Press "Ctrl + Alt + F7" to unlock advanced menu

@@ -32,6 +32,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-GPDI.aml</string>
+				<key>Path</key>
+				<string>SSDT-GPDI.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-PLUG.aml</string>
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
@@ -292,11 +300,6 @@
 				<key>enable-dvmt-calc-fix</key>
 				<data>AQAAAA==</data>
 				<key>enable-dbuf-early-optimizer</key>
-				<data>AQAAAA==</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
-			<dict>
-				<key>force-polling</key>
 				<data>AQAAAA==</data>
 			</dict>
 		</dict>
