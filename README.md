@@ -19,15 +19,20 @@
 </details>
 
 ## Issues
-* Touchpad doesn't work after using Windows.
 * HDMI output doesn't work.
 * Thunderbolt: "No drivers are loaded."
 * Brightness is lower than Windows.
+* Hibernation (S4) doesn't work.
+
+<details>
+<summary><strong>hibernation panic</strong></summary>
+
+panic(cpu 4 caller 0xffffff7f9a4e6908): "[IGFB][PANIC][POWER    ] " "Cannot enable DC6 without PSR or doze/sleep srd control: 0x00100001 PG state: 0x00000003 fuse status: 0x8c000000\n"@/Library/Caches/com.apple.xbs/Sources/GPUDriversIntel/GPUDriversIntel-16.5.2.1/IONDRV/ICLLP/AppleIntelFramebuffer/AppleIntelController.cpp:5506
+
+</details>
 
 ## To-do
 * Fix function keys
-* Check HiDPI
-* Check hibernation
 
 ## Weird mouse cursor
 1. When LG logo is appeared, press F2 to enter Setup
