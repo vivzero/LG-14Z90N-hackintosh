@@ -23,6 +23,7 @@
 * Thunderbolt: "No drivers are loaded."
 * Brightness is lower than Windows.
 * Hibernation (S4) doesn't work.
+* HS10 (Bluetooth) will not work on Windows.
 
 <details>
 <summary><strong>hibernation panic</strong></summary>
@@ -39,4 +40,4 @@ panic(cpu 4 caller 0xffffff7f9a4e6908): "[IGFB][PANIC][POWER    ] " "Cannot enab
 
 ## Click works as Force Click
 1. Go to "System Preferences" - "Trackpad"
-3. Disable "Force Click and haptic feedback"
+2. Disable "Force Click and haptic feedback"
