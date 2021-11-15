@@ -23,7 +23,6 @@
 * Thunderbolt: "No drivers are loaded."
 * Brightness is lower than Windows.
 * Hibernation (S4) doesn't work.
-* HS10 (Bluetooth) will not work on Windows.
 
 <details>
 <summary><strong>hibernation panic</strong></summary>
