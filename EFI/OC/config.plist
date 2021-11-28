@@ -64,14 +64,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-OSYS-INI.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-OSYS-INI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-PLUG.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -117,6 +109,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-USB-Reset.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-XOSI.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-XOSI.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -395,17 +395,17 @@
 			</dict>
 			<dict>
 				<key>Base</key>
-				<string>\_SB.PCI0</string>
+				<string></string>
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>M(_INI,0,S) to XINI</string>
+				<string>Change _OSI to XOSI</string>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>10</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X0lOSQg=</data>
+				<data>X09TSQ==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -413,7 +413,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WElOSQg=</data>
+				<data>WE9TSQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
