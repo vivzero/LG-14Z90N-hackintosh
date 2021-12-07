@@ -21,6 +21,7 @@
 ## Issues
 * HDMI output doesn't work.
 * Thunderbolt: "No drivers are loaded."
+* USB-C connection is lost repeatedly at 5.1V (0x13EC) & 2.1A (0x0834).
 * Brightness is lower than Windows.
 * Hibernation (S4) doesn't work.
 
