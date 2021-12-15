@@ -19,11 +19,12 @@
 </details>
 
 ## Issues
-* HDMI output doesn't work.
-* Thunderbolt: "No drivers are loaded."
 * USB-C connection is lost repeatedly after wake from sleep.
-* Brightness is lower than Windows.
-* Hibernation (S4) doesn't work.
+* 3.5mm combo jack: audio input (microphone) doesn't work. (After editing Platforms80.xml and PinConfigs.kext, the port is recognized but still not working)
+* Thunderbolt: "No drivers are loaded."
+* Brightness is lower than Windows. (Sleep can fix it)
+* HDMI output doesn't work at all.
+* Hibernation (S4) causes KP.
 
 <details>
 <summary><strong>hibernation panic</strong></summary>
