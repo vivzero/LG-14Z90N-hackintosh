@@ -20,16 +20,10 @@
 
 ## Issues
 * USB-C connection is lost repeatedly after wake from sleep.
-* 3.5mm combo jack: audio input (microphone) doesn't work. (After editing Platforms80.xml and PinConfigs.kext, the port is recognized but still not working)
+* 3.5mm combo jack: audio input (microphone) doesn't work.
 * Thunderbolt: "No drivers are loaded."
-* Brightness is lower than Windows. (Sleep can fix it)
+* Brightness is lower than Windows. (S3 Sleep can fix it)
 * HDMI output doesn't work at all.
-* Hibernation (S4) causes KP.
-
-<details>
-<summary><strong>hibernation panic</strong></summary>
-
-panic(cpu 4 caller 0xffffff7f9a4e6908): "[IGFB][PANIC][POWER    ] " "Cannot enable DC6 without PSR or doze/sleep srd control: 0x00100001 PG state: 0x00000003 fuse status: 0x8c000000\n"@/Library/Caches/com.apple.xbs/Sources/GPUDriversIntel/GPUDriversIntel-16.5.2.1/IONDRV/ICLLP/AppleIntelFramebuffer/AppleIntelController.cpp:5506
 
 </details>
 
