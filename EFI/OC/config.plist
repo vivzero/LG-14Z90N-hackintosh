@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Disable AWAC</string>
+				<string>SSDT-AWAC-DISABLE.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -16,7 +16,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Replace EC FieldUnits for macOS</string>
+				<string>SSDT-BATT.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -24,7 +24,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix EC and USB Power</string>
+				<string>SSDT-EC-USBX.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -32,7 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix Brightness keys and ACPI</string>
+				<string>Fix EC Queries</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -40,7 +40,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable FPNT</string>
+				<string>SSDT-FPNT-OFF.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -56,7 +56,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix Instant Wake</string>
+				<string>SSDT-GPRW.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -64,7 +64,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix CPU PM</string>
+				<string>SSDT-PLUG.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -72,7 +72,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Inject PNLF</string>
+				<string>SSDT-PNLF.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -80,7 +80,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable RP09 - SSD Slot 1</string>
+				<string>Disable Incompatible SSD</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -88,7 +88,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix SMBus and Inject MCHC</string>
+				<string>SSDT-SBUS-MCHC.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -96,7 +96,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix ACPI</string>
+				<string>Fix ACPI Error</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -104,7 +104,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Reset RHUB</string>
+				<string>SSDT-USB-Reset.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -112,7 +112,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Use OSYS of latest Windows</string>
+				<string>SSDT-XOSI.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -120,7 +120,22 @@
 			</dict>
 		</array>
 		<key>Delete</key>
-		<array/>
+		<array>
+			<dict>
+				<key>All</key>
+				<false/>
+				<key>Comment</key>
+				<string>Delete xh_icud4</string>
+				<key>Enabled</key>
+				<false/>
+				<key>OemTableId</key>
+				<data>eGhfaWN1ZDQ=</data>
+				<key>TableLength</key>
+				<integer>2978</integer>
+				<key>TableSignature</key>
+				<data>U1NEVA==</data>
+			</dict>
+		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -529,16 +544,34 @@
 		<key>Add</key>
 		<array>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>AirportItlwm_20.kext</string>
+				<string>AirportItlwm_19.kext</string>
 				<key>Comment</key>
-				<string>AirportItlwm for Big Sur</string>
+				<string>AirportItlwm_19.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>MaxKernel</key>
+				<string>19.9.9</string>
+				<key>MinKernel</key>
+				<string>19.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>AirportItlwm_20.kext</string>
+				<key>Comment</key>
+				<string>AirportItlwm_20.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportItlwm</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string>20.9.9</string>
 				<key>MinKernel</key>
@@ -547,16 +580,16 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
-				<string>IntelBluetoothFirmware</string>
+				<string>IntelBluetoothFirmware.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelBluetoothFirmware</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -565,16 +598,16 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>IntelBluetoothInjector.kext</string>
 				<key>Comment</key>
-				<string>IntelBluetoothInjector</string>
+				<string>IntelBluetoothInjector.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -583,34 +616,34 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>Any</string>
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>Patch engine</string>
+				<string>Lilu.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>8.0.0</string>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>NVMeFix</string>
+				<string>NVMeFix.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/NVMeFix</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -619,106 +652,106 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>USBMap.kext</string>
 				<key>Comment</key>
-				<string>USBMap</string>
+				<string>USBMap.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>19.0.0</string>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>Any</string>
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>SMC emulator</string>
+				<string>VirtualSMC.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VirtualSMC</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>8.0.0</string>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>VoodooPS2Controller</string>
+				<string>VoodooPS2Controller.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Controller</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>15.0.0</string>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>Video patches</string>
+				<string>WhateverGreen.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/WhateverGreen</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>10.0.0</string>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string>VoodooPS2Keyboard</string>
+				<string>VoodooPS2Keyboard.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooPS2Keyboard</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>15.0.0</string>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
 				<key>Comment</key>
-				<string>VoodooGPIO</string>
+				<string>VoodooGPIO.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooGPIO</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -727,16 +760,16 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
 				<key>Comment</key>
-				<string>VoodooI2CServices</string>
+				<string>VoodooI2CServices.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooI2CServices</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -745,88 +778,70 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>VoodooInput</string>
+				<string>VoodooInput.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooInput</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>15.0.0</string>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>Any</string>
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>Audio patches</string>
+				<string>AppleALC.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>8.0.0</string>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>HibernationFixup.kext</string>
 				<key>Comment</key>
-				<string>HibernationFixup</string>
+				<string>HibernationFixup.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/HibernationFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>LGWMI.kext</string>
-				<key>Comment</key>
-				<string>LGWMI</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/LGWMI</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
 				<key>Arch</key>
 				<string>Any</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
 				<key>BundlePath</key>
 				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
-				<string>SMCBatteryManager</string>
+				<string>SMCBatteryManager.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCBatteryManager</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -835,16 +850,16 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>SMCProcessor</string>
+				<string>SMCProcessor.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCProcessor</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -853,16 +868,16 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
-				<string>VoodooI2C</string>
+				<string>VoodooI2C.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooI2C</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -871,16 +886,16 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
 				<key>BundlePath</key>
 				<string>VoodooI2CHID.kext</string>
 				<key>Comment</key>
-				<string>VoodooI2CHID</string>
+				<string>VoodooI2CHID.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooI2CHID</string>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1087,7 +1102,7 @@
 				<key>Name</key>
 				<string>CleanNvram.efi</string>
 				<key>Comment</key>
-				<string>CleanNvram</string>
+				<string>CleanNvram.efi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -1213,9 +1228,9 @@
 			<key>JumpstartHotPlug</key>
 			<false/>
 			<key>MinDate</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>MinVersion</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 		</dict>
 		<key>AppleInput</key>
 		<dict>
@@ -1260,23 +1275,23 @@
 		<key>Drivers</key>
 		<array>
 			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>HFS+ Driver</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
-			</dict>
-			<dict>
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string></string>
+				<string>HfsPlus.efi</string>
+			</dict>
+			<dict>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
+				<string>OpenRuntime.efi</string>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
 		</array>
