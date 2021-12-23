@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19H1519</string>
+	<string>19H1615</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.6.7</string>
+	<string>1.6.8</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,23 +25,21 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.6.7</string>
+	<string>1.6.8</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>12D4e</string>
-	<key>DTPlatformName</key>
-	<string>macosx</string>
+	<string>11E801a</string>
 	<key>DTPlatformVersion</key>
-	<string>11.1</string>
+	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>20C63</string>
+	<string>19G68</string>
 	<key>DTSDKName</key>
-	<string>macosx11.1</string>
+	<string>macosx10.15</string>
 	<key>DTXcode</key>
-	<string>1240</string>
+	<string>1170</string>
 	<key>DTXcodeBuild</key>
-	<string>12D4e</string>
+	<string>11E801a</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ALCUserClientProvider</key>
@@ -12179,14 +12177,14 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
-					<string>rdmitry0911 - Conexant CX8200 for LG Gram 17 17z990</string>
+					<string>Conexant CX8200 for LG Gram Z990/Z90N</string>
 					<key>CodecID</key>
 					<integer>351346696</integer>
 					<key>ConfigData</key>
 					<data>
 					AXccEAF3HQEBdx4XAXcfkQF3DAIBpxwgAacd
-					AQGnHqcBpx+VAZccMAGXHRABlx6BAZcfBAFn
-					HEABZx0QAWceIQFnHwQBZwwC
+					AQGnHqABpx+VAZccMAGXHRABlx6LAZcfBAGX
+					ByQBZxxAAWcdEAFnHisBZx8EAWcMAg==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>

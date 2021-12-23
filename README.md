@@ -20,7 +20,6 @@
 
 ## Issues
 * USB-C connection is lost repeatedly after wake from sleep.
-* 3.5mm combo jack: audio input (microphone) doesn't work.
 * Thunderbolt: "No drivers are loaded."
 * Brightness is lower than Windows. (S3 Sleep can fix it)
 * HDMI output doesn't work at all.
