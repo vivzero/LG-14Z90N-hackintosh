@@ -26,12 +26,6 @@
 
 </details>
 
-## Weird mouse cursor
-1. When LG logo is appeared, press F2 to enter Setup
-2. Press "Ctrl + Alt + F7" to unlock advanced menu
-3. Go to Advanced - Intel Advanced Menu - System Agent (SA) Configuration - Graphics Configuration
-4. Set DVMT Pre-Allocated to 64M (default is 60M)
-
 ## Click works as Force Click
 1. Go to "System Preferences" - "Trackpad"
 2. Disable "Force Click and haptic feedback"
