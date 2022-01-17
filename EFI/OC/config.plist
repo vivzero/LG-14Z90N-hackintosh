@@ -520,6 +520,8 @@
 				<data>AQAAAA==</data>
 				<key>enable-dvmt-calc-fix</key>
 				<data>AQAAAA==</data>
+				<key>enable-backlight-registers-fix</key>
+				<data>AQAAAA==</data>
 				<key>enable-dbuf-early-optimizer</key>
 				<data>AQAAAA==</data>
 				<key>igfxfw</key>
