@@ -22,6 +22,7 @@
 * USB-C connection is lost repeatedly after wake from sleep.
 * Thunderbolt: "No drivers are loaded."
 * HDMI output doesn't work at all.
+* Power chime is not working when using internal speaker.
 
 </details>
 
