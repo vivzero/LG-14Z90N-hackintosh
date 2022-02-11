@@ -32,7 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix EC Queries</string>
+				<string>SSDT-FN.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -48,7 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Inject GPIO Pin</string>
+				<string>SSDT-GPDI.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -64,6 +64,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-INI-OSYS.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-INI-OSYS.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-PLUG.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -80,7 +88,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable Incompatible SSD</string>
+				<string>SSDT-RP09-OFF.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -88,7 +96,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix ACPI Error</string>
+				<string>SSDT-UCEV.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -101,14 +109,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-USB-Reset.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-XOSI.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -406,13 +406,13 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>Change _OSI to XOSI</string>
+				<string>PCI0 Method(_INI,0,S) to ZINI</string>
 				<key>Count</key>
-				<integer>10</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X09TSQ==</data>
+				<data>RB9fSU5JCA==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -420,7 +420,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WE9TSQ==</data>
+				<data>RB9aSU5JCA==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -1134,8 +1134,6 @@
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
-				<key>SystemAudioVolumeDB</key>
-				<data>4g==</data>
 				<key>boot-args</key>
 				<string>slide=0 dc6config=0 -igfxtypec</string>
 				<key>csr-active-config</key>
