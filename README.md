@@ -1,5 +1,4 @@
 # LG Gram 14 (14Z90N) hackintosh
-![11](https://img.shields.io/badge/macOS-11-Green)
 
 <details>
 <summary><strong>Specs</strong></summary>
@@ -19,10 +18,11 @@
 </details>
 
 ## Issues
-* USB-C connection is lost repeatedly after wake from sleep.
+* USB-C connection is lost repeatedly. (tested with iPad Pro)
 * Thunderbolt: "No drivers are loaded."
 * HDMI output doesn't work at all.
 * Power chime is not working when using internal speaker.
+* Power button is not functional.
 
 </details>
 
