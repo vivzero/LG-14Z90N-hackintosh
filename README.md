@@ -18,11 +18,12 @@
 </details>
 
 ## Issues
-* USB-C connection is lost repeatedly. (tested with iPad Pro)
+* Due to DBuf, graphic glitches can appear rarely.
+* USB-C connection is lost repeatedly.
 * Thunderbolt: "No drivers are loaded."
-* HDMI output doesn't work at all.
 * Power chime is not working when using internal speaker.
 * Power button is not functional.
+* HDMI output doesn't work at all.
 
 </details>
 
