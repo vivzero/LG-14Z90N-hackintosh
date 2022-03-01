@@ -18,7 +18,6 @@
 </details>
 
 ## Issues
-* Due to DBuf, graphic glitches can appear rarely.
 * USB-C connection is lost repeatedly.
 * Thunderbolt: "No drivers are loaded."
 * Power chime is not working when using internal speaker.
