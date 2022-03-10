@@ -18,7 +18,6 @@
 </details>
 
 ## Issues
-* USB-C connection is lost repeatedly.
 * Thunderbolt: "No drivers are loaded."
 * Power chime is not working when using internal speaker.
 * Power button is not functional.
