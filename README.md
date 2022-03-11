@@ -19,9 +19,10 @@
 
 ## Issues
 * Thunderbolt: "No drivers are loaded."
-* Power chime is not working when using internal speaker.
+* USB-C output has no sound.
+* HDMI output doesn't work.
 * Power button is not functional.
-* HDMI output doesn't work at all.
+* Power chime is not working when using internal speaker.
 
 </details>
 
