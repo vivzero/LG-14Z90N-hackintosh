@@ -80,14 +80,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PMEE.aml</string>
-				<key>Path</key>
-				<string>SSDT-PMEE.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-PNLF.aml</string>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
@@ -418,7 +410,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>X1BUUwE=</data>
 				<key>Limit</key>
