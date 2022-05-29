@@ -23,6 +23,7 @@
 * HDMI output doesn't work.
 * Power button is not functional.
 * Power chime is not working when using internal speaker.
+* system reboots rarely instead of shutdown after many usb connnection. 
 
 <details>
 <summary>ERROR: "Timeout powering ON the panel" (a few seconds delay when internal display turned on)</summary>
