@@ -136,13 +136,13 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>M(_PRW,0,N) to XPRW</string>
+				<string>Device (HS09) to XS09</string>
 				<key>Count</key>
-				<integer>3</integer>
+				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>FA9fUFJXAA==</data>
+				<data>ggxIUzA5</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -150,37 +150,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>FA9YUFJXAA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>1</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>HS09 to XS09</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>W4IMSFMwOQ==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>W4IMWFMwOQ==</data>
+				<data>ggxYUzA5</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -196,7 +166,7 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>HS09 ADR to 0x90</string>
+				<string>HS09 _ADR to 0x90</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -226,13 +196,13 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>HS10 to XS10</string>
+				<string>Device (HS10) to XS10</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>W4IMSFMxMA==</data>
+				<data>ggxIUzEw</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -240,7 +210,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>W4IMWFMxMA==</data>
+				<data>ggxYUzEw</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -282,6 +252,66 @@
 			</dict>
 			<dict>
 				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>M(_PRW,0,N) to XPRW (If using GLAN)</string>
+				<key>Count</key>
+				<integer>4</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>FA9fUFJXAA==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>FA9YUFJXAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>M(_PRW,0,N) to XPRW</string>
+				<key>Count</key>
+				<integer>3</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>FA9fUFJXAA==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>FA9YUFJXAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>1</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Base</key>
 				<string>\_SB.PCI0.CNVW</string>
 				<key>BaseSkip</key>
 				<integer>0</integer>
@@ -292,7 +322,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1BSVwA=</data>
+				<data>FA9fUFJXAA==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -300,7 +330,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WFBSVwA=</data>
+				<data>FA9YUFJXAA==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -322,7 +352,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>WEJJRgA=</data>
+				<data>FEkRWEJJRgA=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -330,7 +360,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WkJJRgA=</data>
+				<data>FEkRWkJJRgA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -352,7 +382,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>WEJJWAA=</data>
+				<data>FE8QWEJJWAA=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -360,7 +390,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WkJJWAA=</data>
+				<data>FE8QWkJJWAA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -382,7 +412,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>WEJTVAA=</data>
+				<data>FEoUWEJTVAA=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -390,7 +420,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WkJTVAA=</data>
+				<data>FEoUWkJTVAA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -412,7 +442,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1E1MAA=</data>
+				<data>FE8EX1E1MAA=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -420,7 +450,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WFE1MAA=</data>
+				<data>FE8EWFE1MAA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -442,7 +472,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1E1MQA=</data>
+				<data>FEkEX1E1MQA=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -450,7 +480,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WFE1MQA=</data>
+				<data>FEkEWFE1MQA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -472,7 +502,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1E4NgA=</data>
+				<data>FEUGX1E4NgA=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -480,7 +510,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WFE4NgA=</data>
+				<data>FEUGWFE4NgA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -502,7 +532,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>VUNFVgg=</data>
+				<data>FEsfVUNFVgg=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -510,37 +540,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WENFVgg=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
-				<string>M(_PTS,1,N) to ZPTS</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>X1BUUwE=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>WlBUUwE=</data>
+				<data>FEsfWENFVgg=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -562,7 +562,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>RB9fSU5JCA==</data>
+				<data>FEQfX0lOSQg=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -570,7 +570,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>RB9aSU5JCA==</data>
+				<data>FEQfWklOSQg=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
