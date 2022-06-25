@@ -256,36 +256,6 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
-				<string>M(_PRW,0,N) to XPRW (If using GLAN)</string>
-				<key>Count</key>
-				<integer>4</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>FA9fUFJXAA==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>FA9YUFJXAA==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
-			<dict>
-				<key>Base</key>
-				<string></string>
-				<key>BaseSkip</key>
-				<integer>0</integer>
-				<key>Comment</key>
 				<string>M(_PRW,0,N) to XPRW</string>
 				<key>Count</key>
 				<integer>3</integer>
