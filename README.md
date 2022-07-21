@@ -55,7 +55,3 @@
 2022-03-20 13:06:26.469292+0900 0x762      Default     0x0                  0      0    kernel: (AppleIntelICLLPGraphicsFramebuffer) [IGFB][ERROR][DISPLAY   ] TxnHang1: FB0: IsTransactionComplete called following fakeVBL notification
 
 </details>
-
-## Click works as Force Click
-1. Go to "System Preferences" - "Trackpad"
-2. Disable "Force Click and haptic feedback"
