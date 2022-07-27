@@ -24,7 +24,7 @@
 * Power button is not functional.
 * Power chime is not working when using internal speaker.
 * System reboots very rarely instead of shutdown.
-* Standby (S3 to S4) does not work.
+* Standby (S3 to S4) works only when lid is closed.
 
 <details>
 <summary>ERROR: "Timeout powering ON the panel" (a few seconds delay when internal display turned on)</summary>
