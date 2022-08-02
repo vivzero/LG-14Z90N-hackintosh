@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>20G624</string>
+	<string>20G630</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleIdentifier</key>
@@ -67,6 +67,21 @@
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>50</integer>
+			<key>idVendor</key>
+			<integer>32903</integer>
+		</dict>
+		<key>0035</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
+			<key>IOClass</key>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
+			<key>IOProbeScore</key>
+			<integer>3000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>53</integer>
 			<key>idVendor</key>
 			<integer>32903</integer>
 		</dict>
