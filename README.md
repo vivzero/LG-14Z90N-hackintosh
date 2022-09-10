@@ -23,6 +23,7 @@
 * HDMI output doesn't work.
 * Power button is not functional.
 * Power chime is not working when using internal speaker.
+* Power management is poor than Windows. (thermal, battery, etc.)
 * System reboots very rarely instead of shutdown.
 * Standby (S3 to S4) works only when lid is closed.
 
