@@ -51,8 +51,4 @@
 
 2022-03-20 13:06:26.127173+0900 0x5fe      Default     0x0                  0      0    kernel: (AppleIntelICLLPGraphicsFramebuffer) [IGFB][ERROR][TRANSACTION] Path is not active in prepareAndSetPipePostCSCGamma
 
-2022-03-20 13:06:26.391679+0900 0x762      Default     0x0                  0      0    kernel: (AppleIntelICLLPGraphicsFramebuffer) [IGFB][ERROR][DISPLAY   ] TxnHang1: FB0: IsTransactionComplete called following fakeVBL notification
-
-2022-03-20 13:06:26.469292+0900 0x762      Default     0x0                  0      0    kernel: (AppleIntelICLLPGraphicsFramebuffer) [IGFB][ERROR][DISPLAY   ] TxnHang1: FB0: IsTransactionComplete called following fakeVBL notification
-
 </details>
