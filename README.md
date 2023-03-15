@@ -8,26 +8,26 @@
 | - | - |
 | CPU | Intel Core i5-1035G4 |
 | GPU | Intel Iris Plus Graphics |
-| RAM | M471A1G44AB0-CWE (on-board) |
-| SSD | ~~HFS256GD9TNG-L2A0A~~ Intel 7600p |
+| RAM | M471A1G44AB0-CWE * 2 |
+| SSD | ~~HFS256GD9TNG-L2A0A~~ *(Disabled)* <br> MTFDHBA512TDV-1AZ1AABYY |
 | LCD | LP140WFA-SPY1 |
-| WLAN | Intel Wi-Fi 6 AX201 160MHz |
+| WLAN | AX201D2W |
 | Audio | Conexant CX8200 |
 | BIOS | C2ZE0200 X64 (20200812) |
 
 </details>
 
-## Issues
-* Thunderbolt: "No drivers are loaded."
-* USB-C output has no sound.
-* HDMI output doesn't work.
-* Power button is not functional.
-* Power chime is not working when using internal speaker.
-* Power management is poor than Windows. (thermal, battery, etc.)
+## Reported Issues
+* Power management is poor than Windows.
 * System reboots very rarely instead of shutdown.
+* USB-C (DP Alt) has no sound.
+* Thunderbolt: "No drivers are loaded."
+* HDMI output is unsupported.
+* Power button does not work.
+* power chime internal speaker.
 
 <details>
-<summary>ERROR: "Timeout powering ON the panel" (a few seconds delay when internal display turned on)</summary>
+<summary>"Timeout powering ON the panel" (a few seconds delay when internal display turned on)</summary>
 
 2022-03-20 13:06:24.032687+0900 0x5fe      Default     0x0                  0      0    kernel: (AppleIntelICLLPGraphicsFramebuffer) [IGFB][ERROR][AUX       ] WR address = 0x004e0, data size = 2, cmd = 0x8004e001, ddi = 0 AUX received a NACK. Reply: 0x10
 
