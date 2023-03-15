@@ -24,7 +24,7 @@
 * Thunderbolt: "No drivers are loaded."
 * HDMI output is unsupported.
 * Power button does not work.
-* power chime internal speaker.
+* Internal speaker cannot play power chime.
 
 <details>
 <summary>"Timeout powering ON the panel" (a few seconds delay when internal display turned on)</summary>
@@ -48,7 +48,5 @@
 ... (repeated many times)
 
 2022-03-20 13:06:26.126927+0900 0x5fe      Default     0x0                  0      0    kernel: (AppleIntelICLLPGraphicsFramebuffer) [IGFB][ERROR][PANEL     ] Timeout powering ON the panel
-
-2022-03-20 13:06:26.127173+0900 0x5fe      Default     0x0                  0      0    kernel: (AppleIntelICLLPGraphicsFramebuffer) [IGFB][ERROR][TRANSACTION] Path is not active in prepareAndSetPipePostCSCGamma
 
 </details>
