@@ -8,6 +8,14 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Fix ACPI errors</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-ACPI-FIX.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Use RTC</string>
 				<key>Enabled</key>
 				<true/>
@@ -32,22 +40,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix EC queries</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-FN.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable FP sensor</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-FPNT-OFF.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Inject GPIO pin</string>
 				<key>Enabled</key>
 				<true/>
@@ -64,7 +56,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>OSYS = 0x07DF</string>
+				<string>Store 0x07DF to OSYS</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -88,19 +80,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable #1 SSD</string>
+				<string>Fix keyboard</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PS2K.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable M.2 Master slot</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-RP09-OFF.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Fix ACPI error</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-UCEV-FIX.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -560,6 +552,24 @@
 				<string>21.9.9</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AirportItlwm_22_alpha.kext</string>
+				<key>Comment</key>
+				<string>AirportItlwm for Ventura</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportItlwm</string>
+				<key>MaxKernel</key>
+				<string>22.9.9</string>
+				<key>MinKernel</key>
+				<string>22.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1069,7 +1079,7 @@
 			<key>ProvideCurrentCpuInfo</key>
 			<false/>
 			<key>SetApfsTrimTimeout</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -1421,6 +1431,8 @@
 			<false/>
 			<key>ForceResolution</key>
 			<false/>
+			<key>GopBurstMode</key>
+			<false/>
 			<key>GopPassThrough</key>
 			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
@@ -1434,7 +1446,7 @@
 			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>Resolution</key>
-			<string>1024x768</string>
+			<string>Max</string>
 			<key>SanitiseClearScreen</key>
 			<false/>
 			<key>TextRenderer</key>
