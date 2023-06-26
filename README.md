@@ -18,12 +18,11 @@
 </details>
 
 ## Reported Issues
-* Power management is poor than Windows.
-* System reboots very rarely instead of shutdown.
-* When lid is already opened, RTC/Maintenance triggers FullWake instead of DarkWake.
+* CPU could be overheated.
+* Unless lid is closed, RTC/Maintenance triggers FullWake instead of DarkWake.
 * USB-C (DP Alt) has no sound.
-* Thunderbolt: "No drivers are loaded."
 * HDMI output is unsupported.
+* Thunderbolt: "No drivers are loaded."
 * Power button does not work.
 * Internal speaker cannot play power chime.
 
